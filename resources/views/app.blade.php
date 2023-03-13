@@ -6,6 +6,7 @@
         <title>Laravel Vue Realstate</title>
 
     </head>
+    @routes
     @vite('resources/js/app.js')
     @inertiaHead
     <body>

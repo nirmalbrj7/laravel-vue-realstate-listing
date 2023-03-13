@@ -1,5 +1,6 @@
 <template>
   <div>Index</div>
+  <Link href="/hello">Show Page</Link>
 </template>
 
 <script setup>
@@ -9,9 +10,3 @@ defineProps({
     message: String
 })
 </script>
-
-<script>
-export default{
-    layout: MainLayout
-}</script>
-
